@@ -1,124 +1,159 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" class="pink-theme">
+  <!--    login.html    14:44:29 -->
 
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover, user-scalable=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="Fabugit" />
 
-	<!--    login.html    14:44:29 -->
+    <title>Signin · Demo</title>
 
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover, user-scalable=no">
-		<meta name="description" content="">
-		<meta name="author" content="Fabugit">
+    <!-- Material design icons CSS -->
+    <link rel="stylesheet" href="vendor/materializeicon/material-icons.css" />
 
-		<title>Signin · Demo</title>
+    <!-- Roboto fonts CSS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap"
+      rel="stylesheet"
+    />
 
-		<!-- Material design icons CSS -->
-		<link rel="stylesheet" href="vendor/materializeicon/material-icons.css">
+    <!-- Bootstrap core CSS -->
+    <link
+      href="vendor/bootstrap-4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-		<!-- Roboto fonts CSS -->
-		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" />
 
-		<!-- Bootstrap core CSS -->
-		<link href="vendor/bootstrap-4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-		<!-- Swiper CSS -->
-		<link href="vendor/swiper/css/swiper.min.css" rel="stylesheet">
+  <body>
+    <div class="row no-gutters vh-100 loader-screen">
+      <div class="col align-self-center text-white text-center">
+        <div class="laoderhorizontal">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <div class="row no-gutters vh-100 proh bg-template">
+      <img src="" alt="logo" class="apple right-image align-self-center" />
+      <div class="col align-self-center px-3 text-center">
+        <!-- <div class="col align-self-center text-center"> -->
+        <!-- <h2 class=""><span class="font-weight-light">Sign</span>In</h2> -->
+        <img src="img/logo.png" alt="logo" class="logo-small" />
+        <!-- <div class="row top-intro"> -->
+        <!-- <h3 class="">Welcome Back</h3> -->
+        <!-- <span class="sub-intro">Please log in back to your account</span> -->
+        <!-- </div> -->
+        <form class="form-signin">
+          <div class="form-group float-label">
+            <input
+              type="email"
+              id="inputEmail"
+              class="form-control"
+              required
+              autofocus
+            />
+            <label for="inputEmail" class="form-control-label"
+              >Email address</label
+            >
+          </div>
 
-		<!-- Custom styles for this template -->
-		<link href="css/style.css" rel="stylesheet">
-	</head>
+          <div class="form-group float-label">
+            <input
+              type="password"
+              id="inputPassword"
+              class="form-control"
+              required
+            />
+            <label for="inputPassword" class="form-control-label"
+              >Password</label
+            >
+          </div>
+          <div class="row my-4">
+            <div class="col-auto">
+              <div class="custom-control custom-checkbox">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="rememberme"
+                />
+                <label class="custom-control-label" for="rememberme"
+                  >Remember Me</label
+                >
+              </div>
+            </div>
+            <div class="col align-self-center text-right pl-0">
+              <a href="forgot-password.html">Forgot Password?</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <a
+                href="index.html"
+                class="btn btn-lg btn-default btn-rounded shadow"
+                style="
+								width: 100%;"
+                ><span>Login</span></a
+              >
+            </div>
+          </div>
+        </form>
+        <p class="text-center text-black">
+          Don't have account yet?<br />
+          <a href="signup.html" class="txt_underline">Sign Up</a> here.
+        </p>
+      </div>
+    </div>
 
-	<body>
-		<div class="row no-gutters vh-100 loader-screen">
-			<div class="col align-self-center text-white text-center">
-				<div class="laoderhorizontal">
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-				</div>
-			</div>
-		</div>
-		<div class="row no-gutters vh-100 proh bg-template">
-			<img src="" alt="logo" class="apple right-image align-self-center">
-			<div class="col align-self-center text-center">
-				<!-- <h2 class=""><span class="font-weight-light">Sign</span>In</h2> -->
-				<div class="row top-intro">
-					<h3 class="">Welcome Back</h3>
-					<span class="sub-intro">Please log in back to your account</span>
+    <div class="wrapper">
+      <div class="header">
+        <!-- style="background-color: #3d90c9 !important; width: 100%;" -->
+        <div class="row no-gutters">
+          <div class="col-auto">
+            <button class="btn  btn-link text-dark">
+              <i class="material-icons">chevron_left</i>
+            </button>
+          </div>
+          <div class="col text-center"></div>
+          <div class="col-auto">
+            <a href="index.html" class="btn  btn-link text-dark"
+              ><img
+                src="img/logo.png"
+                width="20px"
+                height="20px"
+                alt="logo"
+                class="header-logo"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-				</div>
-				<form class="form-signin">
-					<div class="form-group float-label">
-						<input type="email" id="inputEmail" class="form-control" required autofocus>
-						<label for="inputEmail" class="form-control-label">Email address</label>
-					</div>
+    <!-- jquery, popper and bootstrap js -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="vendor/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+    <!-- cookie js -->
+    <script src="vendor/cookie/jquery.cookie.js"></script>
 
-					<div class="form-group float-label">
-						<input type="password" id="inputPassword" class="form-control" required>
-						<label for="inputPassword" class="form-control-label">Password</label>
-					</div>
-					<div class="row my-4">
-						<div class="col-auto">
-							<div class="custom-control custom-checkbox">
-								<input type="checkbox" class="custom-control-input" id="rememberme">
-								<label class="custom-control-label" for="rememberme">Remember Me</label>
-							</div>
-						</div>
-						<div class="col align-self-center text-right pl-0">
-							<a href="forgot-password.html">Forgot Password?</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col">
-							<a href="index.html" class="btn btn-lg btn-default btn-rounded shadow" style="
-								width: 100%;"><span>Login</span></a>
-						</div>
-					</div>
-				</form>
-				<p class="text-center text-black">
-					Don't have account yet?<br>
-					<a href="signup.html" class="txt_underline">Sign Up</a> here.
-				</p>
-			</div>
-		</div>
+    <!-- swiper js -->
+    <script src="vendor/swiper/js/swiper.min.js"></script>
 
-		<div class="wrapper">
-			<div class="header">
-				<!-- style="background-color: #3d90c9 !important; width: 100%;" -->
-				<div class="row no-gutters">
-					<div class="col-auto">
-						<button class="btn  btn-link text-dark"><i class="material-icons">chevron_left</i></button>
-					</div>
-					<div class="col text-center"></div>
-					<div class="col-auto">
-						<a href="index.html" class="btn  btn-link text-dark"><img src="img/logo.png" width="20px" height="20px" alt="logo" class="header-logo"></a>
-					</div>
-				</div>
-			</div>
-			
-			
-		</div>
-		
-		
+    <!-- template custom js -->
+    <script src="js/main.js"></script>
+  </body>
 
-		<!-- jquery, popper and bootstrap js -->
-		<script src="js/jquery-3.3.1.min.js"></script>
-		<script src="js/popper.min.js"></script>
-		<script src="vendor/bootstrap-4.4.1/js/bootstrap.min.js"></script>
-		<!-- cookie js -->
-		<script src="vendor/cookie/jquery.cookie.js"></script>
-
-		<!-- swiper js -->
-		<script src="vendor/swiper/js/swiper.min.js"></script>
-
-		<!-- template custom js -->
-		<script src="js/main.js"></script>
-
-	</body>
-
-
-	<!--    login.html    14:44:29 -->
-
+  <!--    login.html    14:44:29 -->
 </html>
