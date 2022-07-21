@@ -6,7 +6,7 @@ body {
   min-height: 100%;
   height: auto;
   overflow-y: auto;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 22px;
   -webkit-overflow-scrolling: touch;
@@ -707,7 +707,7 @@ body a.btn-success {
 }
 
 .btn-lg {
-  padding: 0.815rem 2.5rem;
+  padding: 0.815rem 2.3rem;
 }
 
 .btn-sm {
@@ -2782,4 +2782,7 @@ pre {
   color: white;
   margin-left: -3px;
   /* border: 1px solid red; */
+}
+.font-weight-800 {
+  font-weight: 800 !important;
 }
