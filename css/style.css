@@ -707,7 +707,7 @@ body a.btn-success {
 }
 
 .btn-lg {
-  padding: 0.815rem 1.5rem;
+  padding: 0.815rem 2.5rem;
 }
 
 .btn-sm {
@@ -784,7 +784,7 @@ a i {
 }
 
 .btn-rounded {
-  border-radius: 30px;
+  border-radius: 12px;
 }
 
 .btn-rounded-15 {
@@ -1691,7 +1691,7 @@ pre {
 }
 
 .pink-theme .btn-default {
-  background-color: #016cdd;
+  background-color: #2ecc71;
 }
 
 .pink-theme .filter,
@@ -1723,6 +1723,10 @@ pre {
   background-color: #016cdd;
 }
 
+.pink-theme .form-control {
+  border-color: #2ecc71;
+}
+
 .pink-theme .figure-profile,
 .pink-theme .form-control:focus,
 .pink-theme .custom-control-input:focus ~ .custom-control-label::before,
@@ -1730,7 +1734,7 @@ pre {
 .pink-theme .float-label .form-control:focus,
 .pink-theme .page-item.active .page-link,
 .pink-theme .btn-outline-default {
-  border-color: #3d90c9;
+  border-color: #f1c40f;
 }
 
 .pink-theme .filter .form-control:focus,
@@ -1764,7 +1768,7 @@ pre {
 .pink-theme .btn.btn-link-default:hover,
 .pink-theme .btn.btn-link-default:focus,
 .pink-theme .btn.btn-link-default.active {
-  color: #3d90c9;
+  color: #2ecc71;
 }
 
 /* brown theme */
