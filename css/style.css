@@ -6,7 +6,7 @@ body {
   min-height: 100%;
   height: auto;
   overflow-y: auto;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   font-size: 16px;
   line-height: 22px;
   -webkit-overflow-scrolling: touch;
@@ -99,7 +99,7 @@ body {
   background-color: #ffffff;
   /* padding: 20px  0 0 0; */
   padding: 20px 0 0 0;
-  margin: 100px auto -30px auto;
+  margin: 20px auto -30px auto;
   max-width: 320px;
 }
 
@@ -2785,4 +2785,18 @@ pre {
 }
 .font-weight-800 {
   font-weight: 800 !important;
+}
+
+.top_icon {
+  font-size: 50px;
+}
+
+.img_icon {
+  height: 50px;
+  width: 50px;
+}
+
+.top_img_icon {
+  height: 80px;
+  width: 80px;
 }
