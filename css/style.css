@@ -1224,6 +1224,9 @@ body a.btn-light-grey {
   /* background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(206,236,255,1) 100%);  */
 }
+.product-details-bg {
+  background-color: #e13c34 !important;
+}
 .jumbo-rounded {
   border-radius: 15px;
 }
@@ -2804,4 +2807,49 @@ pre {
 }
 .splash_img_icon {
   width: 280px;
+}
+
+.header-gray {
+  background-color: #3a3a3a;
+}
+.ft-icon .btn-light {
+  background-color: transparent;
+}
+@media only screen and (max-width: 600px) {
+  .ft-icon {
+    left: -30px;
+  }
+
+  .ft-icon .material-icons {
+    font-size: 34px;
+  }
+  .ft-button .btn-lg {
+    padding: 0.815rem 1.7rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .ft-search {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  .ft-icon {
+    left: -25px;
+  }
+  .ft-icon .material-icons {
+    font-size: 34px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }

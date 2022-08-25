@@ -1,211 +1,295 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" class="pink-theme">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover, user-scalable=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="Fabugit" />
 
+    <title>Dashboard</title>
 
-	<!--    product-details.html    14:44:29 -->
+    <!-- Material design icons CSS -->
+    <link rel="stylesheet" href="vendor/materializeicon/material-icons.css" />
 
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover, user-scalable=no">
-		<meta name="description" content="">
-		<meta name="author" content="Fabugit">
+    <!-- Roboto fonts CSS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-		<title>Product · Demo</title>
+    <!-- Bootstrap core CSS -->
+    <link
+      href="vendor/bootstrap-4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-		<!-- Material design icons CSS -->
-		<link rel="stylesheet" href="vendor/materializeicon/material-icons.css">
+    <!-- Swiper CSS -->
+    <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" />
 
-		<!-- Roboto fonts CSS -->
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-		<!-- Bootstrap core CSS -->
-		<link href="vendor/bootstrap-4.4.1/css/bootstrap.min.css" rel="stylesheet">
-
-		<!-- Swiper CSS -->
-		<link href="vendor/swiper/css/swiper.min.css" rel="stylesheet">
-
-		<!-- Chosen multiselect CSS -->
-		<link href="vendor/chosen_v1.8.7/chosen.min.css" rel="stylesheet">
-
-		<!-- nouislider CSS -->
-		<link href="vendor/nouislider/nouislider.min.css" rel="stylesheet">
-
-		<!-- Custom styles for this template -->
-		<link href="css/style.css" rel="stylesheet">
-	</head>
-
-	<body>
-		<div class="row no-gutters vh-100 loader-screen">
-			<div class="col align-self-center text-white text-center">
-				<img src="img/logo.png" alt="logo">
-				<h1><span class="font-weight-light">D</span>Demo</h1>
-				<div class="laoderhorizontal">
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
+  <body>
+    <div class="row no-gutters vh-100 loader-screen">
+      <div class="col align-self-center text-white text-center">
+        <img src="img/logo.png" alt="logo" />
+        <h1><span class="font-weight-light">D</span>Demo</h1>
+        <div class="laoderhorizontal">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="list-group main-menu">
+        <a
+          href="notification.html"
+          class="list-group-item list-group-item-action"
+          >Notification</a
+        >
+        <a href="profile.html" class="list-group-item list-group-item-action"
+          >My Profile</a
+        >
+        <a href="setting.html" class="list-group-item list-group-item-action"
+          >Settings</a
+        >
+        <a href="login.html" class="list-group-item list-group-item-action mt-2"
+          >Logout</a
+        >
+      </div>
+    </div>
+    <div class="sidebahr" id="mySidepaknel">
+      <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+      <!-- <div class="text-center">
+				<div class="figure-menu shadow">
+					<figure><img src="img/user1.png" alt=""></figure>
 				</div>
-			</div>
-		</div>
-		<div class="wrapper">
-			<div class="header">
-					<div class="row no-gutters">
-						<div class="col-auto">
-							<a href="javascript:void(0)" onClick="javascript:history.go(-1)" class="btn  btn-link text-dark"><i
-									class="material-icons">navigate_before</i></a>
-						</div>
-						<div class="col text-center"><img src="img/logo.png" alt="" class="header-logo"></div>
-						<div class="col-auto">
-							<a href="profile.html" class="btn  btn-link text-dark"><i class="material-icons">account_circle</i></a>
-						</div>
-					</div>
-			</div>
-			<div class="container">
-
-				<div class="text-center">
-					<div class="figure-profile shadow my-4">
-						<figure><img src="img/coy.png" alt=""></figure>
-					</div>
-					<h3 class="mb-1 ">Microsoft</h3>
-					<p class="text-secondary">Chicago, USA</p>
-				</div>
-				<br>
-
-
-				<div class="row details_row_bg">
-					<div class="container">
-						<a href="#" class="text-dark mb-1 mt-2 h6 d-block">Overview
-
-						</a>
-						<p class="text-secondary details_justify">
-								
-								
-								Our high profile client in the eCommerce industry is seeking 2 Software Development engineers for an immediate 4-11 month REMOTE project. 
-								
-								<h6 class="text-secondary">Requirements:</h6>
-								<ul class="text-secondary">								
-									<li>Attention to detail and documentation proven at a previous employer </li>
-									<li>2+ years of experience with front end technologies</li>
-									<li>Java experience; experience writing back end code</li>
-									<li>Object-oriented programming experience</li>
-									<li>Experience with AWS data stores, knows Dynamo or SQL data stores, etc.</li>
-									<li>No bachelor's degree required, experience demonstrated is prioritized over education</li>
-								</ul>
-									</p>
-						<div class="row">
-							<div class="col-12 align-self-center">
-								<button class="btn col-12 btn-lg btn-default shadow btn-rounded">Apply </button>
-							</div>
-						</div>
+				<h5 class="mb-1 ">Stan Thor</h5>
+				<p class="text-mute small">Chicago, USA</p>
+			</div> -->
+      <br />
+      <!-- <div class="row mx-0">
+				<div class="col">
+					<h5 class="subtitle text-uppercase"><span>Menu</span></h5>
+					<div class="list-group main-menu">
+						<a href="notification.html" class="list-group-item list-group-item-action">Notification</a>
+						<a href="profile.html" class="list-group-item list-group-item-action">My Profile</a>
+						<a href="setting.html" class="list-group-item list-group-item-action">Settings</a>
+						<a href="login.html" class="list-group-item list-group-item-action mt-2">Logout</a>
 					</div>
 				</div>
+			</div> -->
+    </div>
+    <div class="wrapper product-details-bg">
+      <div class="header header-gray">
+        <div class="row no-gutters">
+          <div class="col-auto">
+            <a
+              href="javascript:void(0)"
+              onClick="javascript:history.go(-1)"
+              class="btn  btn-link text-white"
+              ><i class="material-icons">navigate_before</i></a
+            >
+          </div>
+          <div class="col text-center">
+            <img src="img/logo.png" alt="" class="header-logo" />
+          </div>
+          <div class="col-auto">
+            <a href="profile.html" class="btn  btn-link text-white"
+              ><i class="material-icons">account_circle</i></a
+            >
+          </div>
+        </div>
+      </div>
 
+      <div class="container mt-4">
+        <div class="row" style="background-color: #e13c34;">
+          <div class="container">
+            <div class="text-center">
+              <div class="figure-profile shadow my-4">
+                <figure><img src="img/coy.png" alt="" /></figure>
+              </div>
+              <h3 class="mb-1 text-white">Congratulations!</h3>
+              <p class="text-white">
+                you just received a gift from
+              </p>
+              <p class="text-white">Emeka Megafu</p>
+              <p class="text-white">@megafusi</p>
+            </div>
+            <br />
+            <div class="col-12 align-self-center mt-4">
+              <button class="btn col-12 btn-lg btn-default shadow btn-rounded">
+                Checkout
+              </button>
+            </div>
 
-			</div>
-			<div class="footer">
-					<div class="no-gutters">
-						<div class="col-auto mx-auto">
-							<div class="row no-gutters justify-content-center">
-								<div class="col-auto">
-									<a href="index.html" class="btn btn-link-default active">
-										<i class="material-icons">home</i>
-									</a>
-								</div>
-								<div class="col-auto">
-									<a href="all-products-list.html" class="btn btn-link-default">
-										<i class="material-icons">search</i>
-									</a>
-								</div>
-								<div class="col-auto">
-									<a href="notifications.html" class="btn btn-link-default">
-										<i class="material-icons">message</i>
-									</a>
-								</div>
-								<div class="col-auto">
-									<a href="profile.html" class="btn btn-link-default">
-										<i class="material-icons">notifications</i>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-			</div>
-		</div>
+            <!-- <div class="container">
+				<div class="row">
+				  <div class="col-12 align-self-center">
+					<button
+					  class="btn col-12 btn-lg btn-default shadow btn-rounded"
+					>
+					  Apply
+					</button>
+				  </div>
+				</div>
+			  </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="no-gutters">
+          <div class="col-auto mx-auto">
+            <div class="row no-gutters justify-content-center">
+              <a href="#" class="nav_link">
+                <i class="material-icons nav_icon">home</i>
+                <!-- <img src="img/menu-logo.png" alt="" class="nav_icon" /> -->
+                <span class="nav_text">Home</span>
+              </a>
+              <a href="#" class="nav_link nav_link--active">
+                <i class="material-icons nav_icon">rss_feed</i>
+                <span class="nav_text">Feed</span>
+              </a>
+              <a href="#" class="nav_link message">
+                <i class="material-icons nav_icon msg_badge">question_answer</i>
+                <span class="nav_text">Messages</span>
+              </a>
+              <a href="#" class="nav_link message">
+                <i class="material-icons nav_icon msg_badge">shopping_cart</i>
+                <span class="nav_text">Collections</span>
+              </a>
+              <a href="#" class="nav_link">
+                <i class="material-icons nav_icon">person</i>
+                <span class="nav_text">Account</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="footer">
+        <div class="no-gutters">
+          <div class="col-auto mx-auto">
+            <div class="row no-gutters justify-content-center">
+              <div class="col-auto">
+                <a href="index.html" class="btn btn-link-default active">
+                  <i class="material-icons">home</i>
+                </a>
+              </div>
+              <div class="col-auto">
+                <a href="all-products-list.html" class="btn btn-link-default">
+                  <i class="material-icons">search</i>
+                  <span class="nav__text">Dashboard</span>
+                </a>
+              </div>
+              <div class="col-auto">
+                <a href="notifications.html" class="btn btn-link-default">
+                  <i class="material-icons">message</i>
+                </a>
+              </div>
+              <div class="col-auto">
+                <a href="profile.html" class="btn btn-link-default">
+                  <i class="material-icons">notifications</i>
+                </a>
+              </div>
+              <div class="col-auto">
+                <a href="profile.html" class="btn btn-link-default">
+                  <i class="material-icons">notifications</i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
 
-		<!-- Modal -->
-		<div class="modal fade" id="share" tabindex="-1" role="dialog" aria-hidden="true">
-			<div class="modal-dialog modal-sm modal-dialog-end" role="document">
-				<div class="modal-content text-center">
-					<div class="modal-body">
-						<h6 class="subtitle mt-0">Share with</h6>
-						<div class="row">
-							<div class="col-12">
-								<figure class="avatar avatar-50 border-0 mx-1">
-									<img src="img/facebook.png" alt="">
-								</figure>
-								<figure class="avatar avatar-50 border-0 mx-1">
-									<img src="img/whatsapp.png" alt="">
-								</figure>
-								<figure class="avatar avatar-50 border-0 mx-1">
-									<img src="img/linkdedin.png" alt="">
-								</figure>
-								<figure class="avatar avatar-50 border-0 mx-1">
-									<img src="img/twitter.png" alt="">
-								</figure>
-							</div>
-						</div>
-
-						<p class="subtitle text-secondary">Recent Connected</p>
-						<div class="row">
-							<div class="col-12">
-								<figure class="avatar avatar-50">
-									<img src="img/user1.png" alt="">
-								</figure>
-								<figure class="avatar avatar-50">
-									<img src="img/user2.png" alt="">
-								</figure>
-								<figure class="avatar avatar-50">
-									<img src="img/user3.png" alt="">
-								</figure>
-								<figure class="avatar avatar-50">
-									<img src="img/user4.png" alt="">
-								</figure>
-								<figure class="avatar avatar-50">
-									<img src="img/user2.png" alt="">
-								</figure>
-							</div>
-						</div>
-					</div>
+    <!-- notification -->
+    <!-- <div class="notification bg-white shadow border-primary">
+			<div class="row">
+				<div class="col-auto align-self-center pr-0">
+					<i class="material-icons text-primary md-36">fullscreen</i>
+				</div>
+				<div class="col">
+					<h6>Viewing in Phone?</h6>
+					<p class="mb-0 text-secondary">Double tap to enter into fullscreen mode for each page.</p>
+				</div>
+				<div class="col-auto align-self-center pl-0">
+					<button class="btn btn-link closenotification"><i
+							class="material-icons text-secondary text-mute md-18 ">close</i></button>
 				</div>
 			</div>
-		</div>
+		</div> -->
+    <!-- notification ends -->
 
-		<!-- jquery, popper and bootstrap js -->
-		<script src="js/jquery-3.3.1.min.js"></script>
-		<script src="js/popper.min.js"></script>
-		<script src="vendor/bootstrap-4.4.1/js/bootstrap.min.js"></script>
-		<!-- cookie js -->
-		<script src="vendor/cookie/jquery.cookie.js"></script>
+    <!-- jquery, popper and bootstrap js -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="vendor/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+    <!-- cookie js -->
+    <script src="vendor/cookie/jquery.cookie.js"></script>
 
-		<!-- swiper js -->
-		<script src="vendor/swiper/js/swiper.min.js"></script>
+    <!-- swiper js -->
+    <script src="vendor/swiper/js/swiper.min.js"></script>
 
-		<!-- nouislider js -->
-		<script src="vendor/nouislider/nouislider.min.js"></script>
+    <!-- template custom js -->
+    <script src="js/main.js"></script>
 
-		<!-- chosen multiselect js -->
-		<script src="vendor/chosen_v1.8.7/chosen.jquery.min.js"></script>
+    <!-- page level script -->
+    <script>
+      $(window).on("load", function() {
+        /* swiper slider carousel */
+        var swiper = new Swiper(".small-slide", {
+          slidesPerView: "auto",
+          spaceBetween: 0
+        });
 
-		<!-- template custom js -->
-		<script src="js/main.js"></script>
+        var swiper = new Swiper(".news-slide", {
+          slidesPerView: 5,
+          spaceBetween: 0,
+          pagination: {
+            el: ".swiper-pagination"
+          },
+          breakpoints: {
+            1024: {
+              slidesPerView: 4,
+              spaceBetween: 0
+            },
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 0
+            },
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 0
+            },
+            320: {
+              slidesPerView: 2,
+              spaceBetween: 0
+            }
+          }
+        });
 
-		<!-- page level script -->
-		
-
-	</body>
-
-
-	<!--    product-details.html    14:44:37 -->
-
+        /* notification view and hide */
+        setTimeout(function() {
+          $(".notification").addClass("active");
+          setTimeout(function() {
+            $(".notification").removeClass("active");
+          }, 3500);
+        }, 500);
+        $(".closenotification").on("click", function() {
+          $(this)
+            .closest(".notification")
+            .removeClass("active");
+        });
+      });
+    </script>
+  </body>
 </html>
