@@ -1,2 +1,1 @@
-github.io
- 
+https://gokolect-com.github.io/gokolect/
