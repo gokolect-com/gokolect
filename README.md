@@ -1,2 +1,1 @@
-# stan202220.github.io
- 
+https://gokolect-com.github.io/gokolect/
