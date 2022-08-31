@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" class="pink-theme">
+  <!--    product-details.html    14:44:29 -->
+
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover, user-scalable=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="Fabugit" />
+
+    <title>Product · Demo</title>
+
+    <!-- Material design icons CSS -->
+    <link rel="stylesheet" href="vendor/materializeicon/material-icons.css" />
+
+    <!-- Monteserrat fonts CSS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
+
+    <!-- Bootstrap core CSS -->
+    <link
+      href="vendor/bootstrap-4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Swiper CSS -->
+    <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" />
+
+    <!-- Chosen multiselect CSS -->
+    <link href="vendor/chosen_v1.8.7/chosen.min.css" rel="stylesheet" />
+
+    <!-- nouislider CSS -->
+    <link href="vendor/nouislider/nouislider.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <style>
+      .card {
+        /*     width: 1000px; */
+        border: none;
+        border-radius: 10px;
+        background-color: #2ecc71 !important;
+      }
+      .btn-outline-light:hover,
+      .btn-outline-light:active,
+      .btn-outline-light:not(:disabled):not(.disabled).active,
+      .btn-outline-light:not(:disabled):not(.disabled):active,
+      .show > .btn-outline-light.dropdown-toggle {
+        background-color: transparent;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="row no-gutters vh-100 loader-screen">
+      <div class="col align-self-center text-white text-center">
+        <img src="img/logo.png" alt="logo" />
+        <h1><span class="font-weight-light">D</span>Demo</h1>
+        <div class="laoderhorizontal">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="list-group main-menu">
+        <a
+          href="notification.html"
+          class="list-group-item list-group-item-action"
+          >Notification</a
+        >
+        <a href="profile.html" class="list-group-item list-group-item-action"
+          >My Profile</a
+        >
+        <a href="setting.html" class="list-group-item list-group-item-action"
+          >Settings</a
+        >
+        <a href="login.html" class="list-group-item list-group-item-action mt-2"
+          >Logout</a
+        >
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="header header-gray">
+        <div class="row no-gutters">
+          <div class="col-auto">
+            <a
+              href="javascript:void(0)"
+              onClick="javascript:history.go(-1)"
+              class="btn  btn-link text-white"
+              ><i class="material-icons">navigate_before</i></a
+            >
+          </div>
+          <div class="col text-center">
+            <img src="img/logo.png" alt="" class="header-logo" />
+          </div>
+          <div class="col-auto">
+            <a href="profile.html" class="btn  btn-link text-white"
+              ><i class="material-icons">account_circle</i></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Swiper -->
+
+        <div class="swiper-container product-details">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/product5.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/apple.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/apple.png" alt="" />
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="container">
+            <!-- <div class="badge badge-success float-right mt-1">10% off</div> -->
+            <button class="btn btn-sm text-success float-right p-0">
+              <span class="text-secondary">200</span>
+              <i class="material-icons md-18">favorite</i>
+            </button>
+            <h5 class="text-dark mb-1 mt-2 font-weight-600 d-block">
+              Red Apple
+            </h5>
+
+            <p class="text-secondary">
+              Lorem ipsum dolor sit amet, consect etur adipiscing elit. Sndisse
+              conv allis. Lorem ipsum dolor sit amet, consect etur adipiscing
+              elit. Sandside conv allis .
+            </p>
+            <hr />
+
+            <h6 class="text-dark mb-1 mt-2 d-block">Location</h6>
+
+            <p class="text-secondary">
+              Description
+            </p>
+            <hr />
+
+            <h6 class="text-dark mb-1 mt-2 d-block">Shipping</h6>
+
+            <p class="text-secondary">
+              Description
+            </p>
+            <hr />
+
+            <h6 class="text-dark mb-1 mt-2 mb-4 d-block">Giver's Info</h6>
+
+            <!-- for card rowwwws -->
+            <div class="card p-3">
+              <div class="container-fluid align-items-center">
+                <div class="row d-flex flex-row">
+                  <div class="col-9">
+                    <div class="row">
+                      <div class="col-2">
+                        <img
+                          src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
+                          class="rounded px-0"
+                          width="50"
+                        />
+                      </div>
+                      <div class="col-6">
+                        <h4 class="mb-0 mt-0 giver-name">Alex Morrision</h4>
+                        <span class="giver-socials text-white">@megafusi</span>
+                      </div>
+                      <div class="col-3 ml-2">
+                        <div class="button d-flex flex-row align-items-center">
+                          <button
+                            class="btn btn-md text-white bg-orange btn-rounded"
+                          >
+                            Profile
+                          </button>
+                          <!-- <div class="w-100"></div> -->
+                          <button
+                            class="btn btn-outline-light btn-md text-white btn-rounded ml-2"
+                          >
+                            Follow
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="p-2 mt-2 bg-green d-flex justify-content-between rounded text-white stats"
+                    >
+                      <div class="d-flex flex-column">
+                        <span class="ratings-name">90%</span>
+                        <span class="ratings-num">Positive Feedback</span>
+                      </div>
+                      <div class="d-flex flex-column">
+                        <span class="ratings-name">200</span>
+                        <span class="ratings-num">Items given</span>
+                      </div>
+                      <div class="d-flex flex-column">
+                        <span class="ratings-name">100</span>
+                        <span class="ratings-num">Followers</span>
+                      </div>
+                      <!-- <div class="d-flex flex-column">
+                        <span class="ratings-name">
+                          <i class="fa-solid fa-award"></i>
+                        </span>
+                        <span class="ratings-num">Rank Badge</span>
+                      </div> -->
+                    </div>
+                  </div>
+
+                  <div class="col-3">
+                    <div class="image">
+                      <!-- <i class="material-icons nav_icon">home</i> -->
+                      <img
+                        src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
+                        class="rounded"
+                        width="100"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mb-4 mt-4">
+              <div class="col-12">
+                <button
+                  class="btn col-12 btn-lg bg-orange text-white shadow btn-rounded"
+                >
+                  <i class="material-icons md-18">redeem</i> Collect
+                </button>
+              </div>
+            </div>
+            <!-- for card end-->
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="no-gutters">
+          <div class="col-auto mx-auto">
+            <div class="row no-gutters justify-content-center">
+              <a href="#" class="nav_link">
+                <i class="material-icons nav_icon">home</i>
+                <!-- <img src="img/menu-logo.png" alt="" class="nav_icon" /> -->
+                <span class="nav_text">Home</span>
+              </a>
+              <a href="#" class="nav_link nav_link--active">
+                <i class="material-icons nav_icon">rss_feed</i>
+                <span class="nav_text">Feed</span>
+              </a>
+              <a href="#" class="nav_link message">
+                <i class="material-icons nav_icon msg_badge">question_answer</i>
+                <span class="nav_text">Messages</span>
+              </a>
+              <a href="#" class="nav_link message">
+                <i class="material-icons nav_icon msg_badge">shopping_cart</i>
+                <span class="nav_text">Collections</span>
+              </a>
+              <a href="#" class="nav_link">
+                <i class="material-icons nav_icon">person</i>
+                <span class="nav_text">Account</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="share"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-sm modal-dialog-end" role="document">
+        <div class="modal-content text-center">
+          <div class="modal-body">
+            <h6 class="subtitle mt-0">Share with</h6>
+            <div class="row">
+              <div class="col-12">
+                <figure class="avatar avatar-50 border-0 mx-1">
+                  <img src="img/facebook.png" alt="" />
+                </figure>
+                <figure class="avatar avatar-50 border-0 mx-1">
+                  <img src="img/whatsapp.png" alt="" />
+                </figure>
+                <figure class="avatar avatar-50 border-0 mx-1">
+                  <img src="img/linkdedin.png" alt="" />
+                </figure>
+                <figure class="avatar avatar-50 border-0 mx-1">
+                  <img src="img/twitter.png" alt="" />
+                </figure>
+              </div>
+            </div>
+
+            <p class="subtitle text-secondary">Recent Connected</p>
+            <div class="row">
+              <div class="col-12">
+                <figure class="avatar avatar-50">
+                  <img src="img/user1.png" alt="" />
+                </figure>
+                <figure class="avatar avatar-50">
+                  <img src="img/user2.png" alt="" />
+                </figure>
+                <figure class="avatar avatar-50">
+                  <img src="img/user3.png" alt="" />
+                </figure>
+                <figure class="avatar avatar-50">
+                  <img src="img/user4.png" alt="" />
+                </figure>
+                <figure class="avatar avatar-50">
+                  <img src="img/user2.png" alt="" />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jquery, popper and bootstrap js -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="vendor/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+    <!-- cookie js -->
+    <script src="vendor/cookie/jquery.cookie.js"></script>
+
+    <!-- swiper js -->
+    <script src="vendor/swiper/js/swiper.min.js"></script>
+
+    <!-- nouislider js -->
+    <script src="vendor/nouislider/nouislider.min.js"></script>
+
+    <!-- chosen multiselect js -->
+    <script src="vendor/chosen_v1.8.7/chosen.jquery.min.js"></script>
+
+    <!-- template custom js -->
+    <script src="js/main.js"></script>
+
+    <!-- page level script -->
+    <script>
+      $(window).on("load", function() {
+        var swiper = new Swiper(".product-details ", {
+          slidesPerView: 1,
+          spaceBetween: 0,
+          pagination: {
+            el: ".swiper-pagination"
+          }
+        });
+
+        /* counter count down script */
+        var countDownDate = new Date("December 20, 2019 15:37:25").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+          // Get today's date and time
+          var now = new Date().getTime();
+
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor(
+            (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+          );
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+          // Display the result in the element with id="demo"
+          document.getElementById("days").innerHTML = days;
+          document.getElementById("hrs").innerHTML = hours;
+          document.getElementById("min").innerHTML = minutes;
+          document.getElementById("sec").innerHTML = seconds;
+
+          // If the count down is finished, write some text
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("timer").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+      });
+    </script>
+  </body>
+
+  <!--    product-details.html    14:44:37 -->
+</html>
