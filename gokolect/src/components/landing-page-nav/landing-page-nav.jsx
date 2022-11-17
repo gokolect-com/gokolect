@@ -1,5 +1,5 @@
 import "./landing-page-nav.scss";
-// import { ReactComponent as Logo } from "../../assests/Gokolectlogo.svg";
+import { ReactComponent as Gokolect } from "../../assests/Gokolectlogo.svg";
 
 const LandingPageNav = () => (
     <div className="nav-container">
@@ -12,7 +12,7 @@ const LandingPageNav = () => (
             </ul>
         </div>
         <div className="logo">
-            {/* <Logo /> */}
+            <Gokolect className="gokolect"/>
         </div>
     </div>
 );

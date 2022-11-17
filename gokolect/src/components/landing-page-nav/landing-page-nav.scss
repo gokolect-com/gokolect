@@ -1,7 +1,8 @@
 .nav-container {
-    width: 100%;
+    width: 100vw;
     height: 60px;
     color: #2ECC71;
+    display: flex;
 
     .links {
         height: 100%;
@@ -15,12 +16,17 @@
                 margin: 0 7px;
                 display: inline-block;
                 cursor: pointer;
-            }
-        }
 
-        .logo {
-            width: 30%;
+            }
         }
     }
 
+    .logo {
+        width: 30%;
+
+        .gokolect {
+            width: 10rem;
+            height: 100%;
+        }
+    }
 }
