@@ -1,14 +1,19 @@
-import "./sign-in.styles.css";
+import "./sign-in.styles.scss";
+import { ReactComponent as GokolectStandAloneLogo } from "../../assests/Gokolectstandalonelogo.svg";
+import { ReactComponent as GmailLogo } from "../../assests/gmaillogo.svg";
+import { ReactComponent as FacebookLogo } from "../../assests/facebooklogo.svg";
 
 const SignIn = () => (
     <form className="sign-in-form">
         <div className="sign-in-container">
             {/* Social media sign in */}
             <div className="social-sign-in">
+                <GokolectStandAloneLogo  className="gokolect-logo"/>
                 <h1>Sign In</h1>
-                <span>Give free gifts aswell</span>
+                <span>Give and receive free gifts aswell</span>
                 <div>
-
+                    <GmailLogo />
+                    <FacebookLogo />
                 </div>
             </div>
 

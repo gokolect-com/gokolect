@@ -3,6 +3,9 @@
     height: 60px;
     color: #2ECC71;
     display: flex;
+    position: fixed;
+    top: 0;
+    background-color: white;
 
     .links {
         height: 100%;

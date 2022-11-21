@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+}
+
+span { 
+    font-size: 11px;
+    margin: 5px;
+    font-weight: lighter;
+}
+
+input::placeholder {
+    font-size: 11px;
+}
+
+.sign-in-form{
+    border: 1px solid #2ECC71;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.sign-in-container{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+
+
+    div {
+        width: 90%;
+        margin: auto;
+    }
+
+    .social-sign-in {
+        padding-top: 1rem;
+        height: 40%;
+
+        h1 {
+            color: #3D3D3D;
+        }
+
+        span {
+            font-size: 12px;
+            font-weight: normal;
+            color: #2ECC71;
+        }
+
+        .gokolect-logo {
+            height: 3rem;
+            width: 3rem;
+            margin: 10px;
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            width: 40%;
+            justify-content: space-around;
+            position: relative;
+            top: 12px;
+        }
+
+        div > *{
+            width: 2.4rem;
+            height: 2.4rem;
+            cursor: pointer;
+        }
+    }
+
+    .email-password-sign-in {
+        display: flex;
+        flex-direction: column;
+        height: 35%;
+
+        input {
+            width: 230px;
+            height: 40px;
+            border-radius: 16px;
+            border: 1.9px solid #2ECC71;
+            margin: 8px auto;
+        }
+    }
+
+    .sign-in-buttons {
+
+        height: 15%;
+
+        div {
+            display: flex;
+            flex-direction: row;
+            height: 47%;
+            align-items: center;
+         }
+
+         input {
+            margin-right: 10px;
+            border: none;
+        }
+
+        input[type=checkbox] {
+            width: 15px;
+            height: 15px;
+            position: relative;
+            top: 0px;
+        }
+
+        input[type=submit] {
+            width: 88px;
+            height: 38px;
+            color: white;
+            background-color: #2ECC71;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    }
+    
+}
