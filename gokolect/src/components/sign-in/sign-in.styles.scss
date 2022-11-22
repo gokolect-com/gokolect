@@ -6,25 +6,34 @@ body {
 }
 
 span { 
-    font-size: 11px;
-    margin: 5px;
-    font-weight: lighter;
+    font-size: 8px;
+    font-weight: 500px;
+    font-style: normal;
+    color: #3D3D3D;
+    line-height: 10px;
 }
 
 input::placeholder {
-    font-size: 11px;
+    font-size: 10px;
+    color: #3D3D3D80;
+    position: relative;
+    bottom: 2px;
+    left: 16px;
+    font-style: normal;
+    font-weight: 500px;   
 }
 
 .sign-in-form{
-    border: 1px solid #2ECC71;
-    border-radius: 10px;
-    margin-top: 10px;
+    max-width: 360px;
+    width: 100vw;
+    height: 620px;
+    margin: auto;
 }
 
 .sign-in-container{
-    width: 360px;
-    height: 620px;
-    margin: auto;
+    width: 100%;
+    height: 100%;
+    font-family: Montserrat;
 
 
     div {
@@ -34,36 +43,34 @@ input::placeholder {
 
     .social-sign-in {
         padding-top: 1rem;
-        height: 40%;
+        height: 53%;
+
+        .gokolect-logo {
+            margin: 100px 0 50px 0;
+        }
 
         h1 {
             color: #3D3D3D;
+            font-size: 24px;
+            font-weight: 500px;
         }
 
         span {
-            font-size: 12px;
-            font-weight: normal;
+            font-size: 10px;
+            font-weight: 500px;
             color: #2ECC71;
-        }
-
-        .gokolect-logo {
-            height: 3rem;
-            width: 3rem;
-            margin: 10px;
         }
 
         div {
             display: flex;
             align-items: center;
-            width: 40%;
+            width: 25%;
             justify-content: space-around;
             position: relative;
             top: 12px;
         }
 
         div > *{
-            width: 2.4rem;
-            height: 2.4rem;
             cursor: pointer;
         }
     }
@@ -71,19 +78,19 @@ input::placeholder {
     .email-password-sign-in {
         display: flex;
         flex-direction: column;
-        height: 35%;
+        height: 25%;
 
         input {
-            width: 230px;
-            height: 40px;
-            border-radius: 16px;
-            border: 1.9px solid #2ECC71;
+            width: 199px;
+            height: 38px;
+            border-radius: 32px;
+            border: 1px solid #2ECC71;
             margin: 8px auto;
         }
     }
 
     .sign-in-buttons {
-
+        width: 63%;
         height: 15%;
 
         div {
@@ -103,6 +110,7 @@ input::placeholder {
             height: 15px;
             position: relative;
             top: 0px;
+            accent-color: #2ECC71;
         }
 
         input[type=submit] {
@@ -110,7 +118,7 @@ input::placeholder {
             height: 38px;
             color: white;
             background-color: #2ECC71;
-            border-radius: 10px;
+            border-radius: 12px;
             cursor: pointer;
         }
     }
