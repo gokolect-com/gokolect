@@ -9,7 +9,7 @@ const CreateAccount = () => (
         <div className="logo-section">
             <GokolectLogo className="gokolect"/>
             <h1>Create Account</h1>
-            <h4>Give and receive free gifts aswell</h4>
+            <span>Give and receive free gifts aswell</span>
             <div>
                 <GmailLogo />
                 <FacebookLogo />
@@ -24,8 +24,8 @@ const CreateAccount = () => (
             <input type="checkbox" />
             <span>I agree to the Terms and Privacy Policy</span>
             <div>
-                <input type="button" value="Sign Up"/>
-                <input type="button" value="Sign In" />
+                <input type="submit" value="Sign Up"/>
+                <input type="submit" value="Sign In" />
             </div>
         </div>
         </form>
